@@ -12,8 +12,8 @@ app.secret_key = 'thebankingprojectapi'
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-ADMIN_EMAIL = "gangpayee@gmail.com"
-ADMIN_EMAIL_PASSWORD = "GangPayee@gcetts"
+ADMIN_EMAIL = "<ADMIN_EMAIL>"
+ADMIN_EMAIL_PASSWORD = "<ADMIN_PASSWORD>"
 
 
 @app.route("/")
