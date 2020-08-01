@@ -23,7 +23,7 @@ def logout():
 def enter():
     email = request.form.get('email')
     password = request.form.get('password')
-    if email == "gangpayee@gmail.com" and password == "GangPayee@gcetts":
+    if email == "<ADMIN_EMAIL>" and password == "<ADMIN_PASSWORD>":
         resp = make_response(redirect(url_for('index')))
         resp.set_cookie('email', email, max_age=60*60*24*7)
         return resp
